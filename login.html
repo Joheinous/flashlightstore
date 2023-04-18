@@ -50,7 +50,7 @@
 
     <!--Login Form-->
     
-    <div class="bg-light" style="width: 35%; margin: 2em auto auto auto; border-radius: 25px; padding: 2em 2em 2em 2em ;">
+    <div class="bg-light" style="width: 35%; margin: 1em auto auto auto; border-radius: 25px; padding: 2em 2em 2em 2em ;">
     
         <form>
           <div class="form-group">
@@ -61,10 +61,14 @@
             <label style="padding-top: 1em" for="password">Password</label>
             <input type="password" name="password" id="password"
             placeholder="Enter Password" class="form-control" />
-
-            <label for="remember-me" style="padding-top: 1em;">Remember Me?</label>
-            <input type="checkbox" name="rememberMe" id="remember-me" />
           </div>
+            <label for="remember-me" style="padding: 1em 0em 1em 0em;">Remember Me?</label>
+            <input type="checkbox" name="rememberMe" id="remember-me" />
+
+            <div class="d-grid gap-2">
+            <button type="button" class="btn btn-primary">Login</button>
+          </div>
+          
         </form>
       
     </div>

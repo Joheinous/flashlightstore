@@ -19,7 +19,7 @@
 
     <title>Sign Up | Flashlight Emporium</title>
   </head>
-  <body>
+  <body class="bg-info">
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
       <div class="container-fluid" style="margin: 1em 1em 1em 1em">
         <ul class="navbar-nav mr-auto">
@@ -47,5 +47,103 @@
         </ul>
       </div>
     </nav>
+    <div
+      class="bg-light"
+      style="
+        width: 35%;
+        margin: 1em auto auto auto;
+        border-radius: 25px;
+        padding: 2em 2em 2em 2em;
+      "
+    >
+      <form>
+        <div class="form-group">
+          <label for="Email">Email</label>
+          <input
+            id="email"
+            type="text"
+            name="Email"
+            placeholder="Enter Email"
+            class="form-control"
+          />
+          <label style="padding-top: 1em" for="confirm-email">Email</label>
+          <input
+            id="confirm-email"
+            type="text"
+            name="confirm-mail"
+            placeholder="Confirm Email"
+            class="form-control"
+          />
+          <label style="padding-top: 1em" for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Enter Password"
+            class="form-control"
+          />
+          <label style="padding-top: 1em" for="confirm-password"
+            >Confirm Password</label
+          >
+          <input
+            type="password"
+            name="confirm-password"
+            id="confirm-password"
+            placeholder="Enter Password"
+            class="form-control"
+          />
+        </div>
+        <label for="mail-list" style="padding-top: 1em"
+          >Join our mailing list?</label
+        >
+        <input type="checkbox" name="mail-list" id="mail-list" />
+        <hr />
+        <p>How did you hear about us?</p>
+
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="Word"
+          />
+          <label class="form-check-label" for="word"> Word of Mouth </label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="social"
+            checked
+          />
+          <label class="form-check-label" for="social"> Social Media </label>
+        </div>
+
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="search"
+            checked
+          />
+          <label class="form-check-label" for="search"> Search Engine </label>
+        </div>
+        <div class="form-check" style="padding-bottom: 1em">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="ad"
+            checked
+          />
+          <label class="form-check-label" for="ad"> Advertisement </label>
+        </div>
+        <div class="d-grid gap-2">
+          <button type="button" class="btn btn-primary">Sign Up</button>
+        </div>
+      </form>
+    </div>
   </body>
 </html>
