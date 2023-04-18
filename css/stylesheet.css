@@ -1,0 +1,12 @@
+.backgroundflash {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/frontpage.png) no-repeat center / cover fixed;
+}
+
+/* footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}--->*/
+
